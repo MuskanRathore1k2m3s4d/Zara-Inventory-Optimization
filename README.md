@@ -19,8 +19,7 @@ Fashion inventory moves fast. This project focuses on "Inventory Health" by cate
 * Seaborn/Matplotlib:For heatmaps and distribution box-plots.
 
 ##  Dashboard Preview
-![ZARA Dashboard Preview](<img width="1429" height="799" alt="ZARA Dashboard Preview png" src="https://github.com/user-attachments/assets/58780ad3-255a-4494-bf10-f5921bb9c385" />
- )
+![ZARA Dashboard Preview]("<img width="1429" height="799" alt="ZARA Dashboard Preview png" src="https://github.com/user-attachments/assets/58780ad3-255a-4494-bf10-f5921bb9c385" />")
 
 ## Project Structure
 Zara-Inventory-Optimization/
