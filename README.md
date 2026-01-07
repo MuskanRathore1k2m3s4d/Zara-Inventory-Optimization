@@ -1,19 +1,40 @@
-# ZARA Warehouse Optimization & Dead-Stock Analysis
+# Zara Inventory & Warehouse Intelligence Dashboard
 
-## Project Context
-In the fast-fashion industry, inventory aging is a major risk. This project analyzes 4,000+ Zara items to ensure high-trend products are restocked and slow-moving items are cleared.
+A professional-grade inventory optimization project that analyzes 4,000+ SKUs to manage stock aging, reduce dead stock, and automate warehouse replenishment alerts.
 
-## Technical Workflow
-1. Python Data Engineering:** Generated a synthetic dataset including Trend Scores, Seasonality (SS25/AW24), and Lead Times.
-2. SQL Business Logic: - Categorized stock into 'Dead Stock', 'Slow Moving', and 'Healthy'.
-   - Calculated Sell-Through Rate (STR%)** to measure category performance.
-3. Exploratory Data Analysis (EDA):** Identified correlations between Trend Scores and Sales velocity.
-4. Power BI Dashboarding: Created an action-oriented view for Warehouse Managers.
+##  Project Overview
+Fashion inventory moves fast. This project focuses on "Inventory Health" by categorizing stock based on age and trend scores. It helps warehouse managers decide which items need immediate restock and which require clearance discounts.
 
-## Key Insights
-- Inventory Health:** 29% of stock is categorized as 'Dead Stock', requiring immediate clearance.
-- Top Performer:** 'Tops' and 'Bottoms' drive 50%+ of the total revenue.
-- Action Required:** 15% of high-trend items are at risk of 'Stock-out'.
+## Project Objectives
+* Categorize 4,000+ products into Aging Buckets (Dead Stock, Slow Moving, Fresh).
+* Calculate **Sell-Through Rate (STR%)** to measure category performance.
+* Identify the correlation between Social Media Trend Scores and Sales Velocity.
+* Automate "Action Required" logic for stock-out risks and overstock clearance.
+* Visualize warehouse-wise stock distribution across global locations.
+
+##  Tools & Technologies Used
+* Python: Synthetic data generation (4,000 rows) and Trend-Sales correlation analysis.
+* SQL: Creating SQL Views for automated reporting and DATEDIFF aging logic.
+* Power BI: Advanced DAX for stock alerts and interactive warehouse command center.
+* Seaborn/Matplotlib:For heatmaps and distribution box-plots.
 
 ##  Dashboard Preview
-![ZARA Dashboard](zara_preview.png)
+![ZARA Dashboard Preview](<img width="1429" height="799" alt="ZARA Dashboard Preview png" src="https://github.com/user-attachments/assets/58780ad3-255a-4494-bf10-f5921bb9c385" />
+ )
+
+## Project Structure
+Zara-Inventory-Optimization/
+│
+├── data/
+│   └── zara_inventory_data.csv
+│
+├── notebooks/
+│   └── inventory_eda.ipynb
+│
+├── sql_scripts/
+│   └── warehouse_logic.sql
+│
+├── dashboard/
+│   └── Zara_Intelligence_Dashboard.pbix
+│
+└── README.md
